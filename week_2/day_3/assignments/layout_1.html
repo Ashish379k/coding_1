@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    .cont{
+        display:flex;
+        flex-direction: column;
+    }
+    .nav{
+        height:100px;
+        background: yellow;
+        margin:20px;
+    }
+    .box{
+        display:grid;
+        grid-template-rows: 1fr ;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .box h2{
+       background: red;
+       height:500px;
+       margin: 20px;
+    }
+    #rb{
+        background: green;
+    }
+    @media(max-width:590px) {
+       
+     .box{
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr ;
+    }
+    .box h2
+    {
+       height:250px;
+       margin: 20px;
+        
+    }
+    }
+    
+ </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont"> 
+       <div class="nav">
+            <h1>Navigation</h1>
+        </div>
+      
+       <div class="box">
+           <div><h2>Left Box</h2></div> 
+           <div><h2 id="rb">Right Box<h2></h2></div> 
+       </div>
+        
+       
+    </div>
+</body>
+</html>

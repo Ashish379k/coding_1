@@ -1,0 +1,450 @@
+header
+{
+    background-color: #3F51B5;
+    height: 80px;
+    color: azure;
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo
+{
+    height:50px;
+    width:70px;
+    border: 2px solid black;
+    margin:15px;
+}
+header > div
+{
+   border: 2px solid brown;
+    color: azure;
+    height: 35px;
+    font-size: 30px;
+    margin: 20px 32px;
+}
+header > div:hover
+{
+    background: crimson;
+}
+    
+#logo1
+{
+    border:none;
+    background:#3F51B5 ;
+    margin: 0px;
+}
+.cont
+{
+    width: 1300px;
+    margin: auto;
+    
+    height: 750px;
+    background-size: 1300px 750px;
+    
+   
+}
+.page1{
+    background-image: url(resources/page1.jpg);
+}
+.page2
+{
+    background-image: url(resources/page2.jpg);
+}
+.page3{
+    background-image: url(resources/page3.jpg);
+}
+.page4{
+    background-image: url(resources/page5.jpg);
+}
+.page5{
+    background-image: url(resources/page4.jpg);
+}
+
+.ab > .abo
+{
+    margin: 30px;
+    margin-top: 0px;
+    color:wheat;
+    font-size: 40px;
+    background: rgb(191, 209, 128);
+    width: 130px;
+    height: 40px;
+    margin-bottom: 120px;
+}
+
+.full
+{
+    
+    height: 400px;
+    width:1000px;
+    margin: auto;
+    font-size: 48px;
+    color:rgb(235, 209, 145);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#item1
+{
+width:1200px;
+height:50px;
+background: none;
+margin: 20px;
+font-size: 16px;
+
+    
+}
+.brands
+{
+    height:150px;
+}
+.brands > div
+{
+    width:100px;
+    height:30px;
+    float: left;
+    background:pink ;
+    margin:20px;
+    margin-top: 5px;
+    color: red;
+    font-family: fantasy;
+    font-size: 22px;
+    text-align:center;
+}
+footer
+{
+
+    background-color: #3F51B5;
+    height: 80px;
+    color: azure;
+    width: 1300px;
+    margin: auto;
+    text-align: center;
+  
+}
+.logob
+{
+    height:30px;
+    width:50px;
+    border: 1px solid black;
+    
+} 
+footer div
+{
+    float:left;
+    margin:20px 40px;
+}
+#contact
+{
+    border:solid 2px brown;
+    width:280px;
+    height:50px;
+    margin-top:5px;
+    margin-right:10px;
+    color: black;
+
+}
+.cont2
+ {
+        width: 1300px;
+        margin: auto;
+        
+        height: 750px;
+        background-size: 1300px 750px;
+ }
+ 
+
+#all
+{
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
+    margin-top:20px;
+    margin-left:150px;
+
+}
+#all img{
+    width:150px;
+    height:100px;
+}
+#col
+{
+    font-size: 30px;
+    color: black;
+    margin-left: 50px;
+}
+#srch
+{
+    background-color:blueviolet;
+    width:800px;
+    height:50px;
+    font-size: 24px;
+    margin-left: 50px;
+}
+td 
+{
+    font-size: 25px;
+    color:rgb(194, 192, 73);
+    margin:10px;
+    padding: 10px;
+    border: 1px solid brown;
+}
+td:hover
+{
+    background: black;
+}
+
+#words
+{
+    font-size: 30px;
+    color: blanchedalmond;
+    float:left
+}
+#words1
+{
+    color: rgb(74, 145, 163);
+    font-size: 30px;
+}
+#unc
+{
+    width:800px;
+    height:100px;
+    font-size: 50px;
+    color: rgb(119, 180, 180);
+    margin:auto;
+    padding-top: 380px;
+    
+}
+
+@media(max-width:900px)
+{
+    
+header
+{
+    background-color: rgb(64, 79, 165);
+    height: 60px;
+    color: azure;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo
+{
+    height:35px;
+    width:50px;
+    border: 1px solid rgb(48, 4, 4);
+    margin:15px;
+}
+header > div
+{
+   border: 1px solid brown;
+    color: azure;
+    height: 25px;
+    font-size: 20px;
+    margin: 15px 12px;
+}
+header > div:hover
+{
+    background: rgb(207, 78, 104);
+}
+    
+#logo1
+{
+    border:none;
+    background:#3F51B5 ;
+    margin: 0px;
+}
+.cont
+{
+    width: 800px;
+    margin: auto;
+    
+    height: 570px;
+    background-size: 800px 550px;
+    
+   
+}
+.page1{
+    background-image: url(resources/page2.jpg);
+}
+.page2
+{
+    background-image: url(resources/page3.jpg);
+}
+.page3{
+    background-image: url(resources/page4.jpg);
+}
+.page4{
+    background-image: url(resources/page1.jpg);
+}
+.page5{
+    background-image: url(resources/page5.jpg);
+}
+
+.ab > .abo
+{
+    margin: 10px;
+    margin-top: 0px;
+    color:wheat;
+    font-size: 20px;
+    background: rgb(191, 209, 128);
+    width: 50px;
+    height: 30px;
+    margin-bottom: 70px;
+}
+
+.full
+{
+    
+    height: 300px;
+    width:700px;
+    margin: auto;
+    font-size: 30px;
+    color:rgb(235, 209, 145);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#item1
+{
+width:800px;
+height:35px;
+background: none;
+margin: 10px;
+font-size: 12px;
+
+    
+}
+.brands
+{
+    height:120px;
+}
+.brands > div
+{
+    width:70px;
+    height:20px;
+    float: left;
+    background:rgb(145, 52, 67) ;
+    margin:13px;
+    margin-top: 3px;
+    color: red;
+    font-family: fantasy;
+    font-size: 16px;
+    text-align:center;
+}
+footer
+{
+
+    background-color: #3F51B5;
+    height: 60px;
+    color: azure;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+  
+}
+.logob
+{
+    height:30px;
+    width:50px;
+    border: 1px solid black;
+    
+} 
+footer div
+{
+    float:left;
+    margin:20px 10px;
+}
+#contact
+{
+    border:solid 2px brown;
+    width:150px;
+    height:40px;
+    margin-top:5px;
+    margin-right:5px;
+    color: black;
+    font-size: 10px;
+    float: left;
+
+}
+.cont2
+ {
+        width: 800px;
+        margin: auto;
+        
+        height: 650px;
+        background-size: 800px 550px;
+ }
+ 
+
+#all
+{
+    display:grid;
+    grid-gap:5px;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 150px 150px 150px;
+    margin-top:20px;
+    margin-left:60px;
+
+}
+#all img{
+    width:100px;
+    height:75px;
+}
+#col
+{
+    font-size: 30px;
+    color: rgb(182, 26, 26);
+    margin-left: 50px;
+}
+#srch
+{
+    background-color:blueviolet;
+    width:600px;
+    height:50px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+td 
+{
+    font-size: 20px;
+    color:rgb(194, 192, 73);
+    margin:7px;
+    padding: 8px;
+    border: 1px solid rgb(80, 23, 23);
+}
+td:hover
+{
+    background: black;
+}
+
+#words
+{
+    font-size: 25px;
+    color: rgb(214, 20, 20);
+    float:left
+}
+#words1
+{
+    color: rgb(74, 145, 163);
+    font-size: 20px;
+}
+#unc
+{
+    width:800px;
+    height:100px;
+    font-size: 50px;
+    color: rgb(119, 180, 180);
+    margin:auto;
+    padding-top: 380px;
+    
+}
+
+}

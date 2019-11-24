@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        flex and grid
+    </title>
+    <style>
+        .cont
+        {
+            width:1080px;
+            height:600px;
+            margin:auto;
+            display:flex;
+            justify-content: center;
+        }
+        .box1
+        {
+            width:180px;
+            height:450px;
+             display:grid;
+            grid-template-columns: 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
+            grid-gap:10px;
+            margin-top: 150px;
+             }
+        .box2
+        {
+            width:540px;
+            height: 250px;
+            margin-top: 330px;
+            display:grid;
+            grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px 50px;
+            grid-gap:10px;
+            }
+        .box3
+        {
+            width:300px;
+            height: 320px;
+            margin-top: 210px;
+            display:grid;
+            grid-template-columns: 50px 50px 50px 50px 50px ;
+            grid-template-rows: 50px 50px 50px 50px 50px 50px;
+            grid-gap:10px;
+            }
+        .box1 div
+        {
+           width:40px;
+           height:40px;
+           border:solid 1px black;
+           margin: 6px;
+           margin-top: 20px;
+        }
+        .box1 div:nth-child(1)
+        {
+            background: maroon;
+            
+        }
+        .box1 div:nth-child(10)
+        {
+            grid-area:6/1/7/1;
+            background: greenyellow;
+        }
+        .box1 div:nth-child(13)
+        {
+            grid-area:7/1/8/1;
+            background: greenyellow;
+        }
+        .box1 div:nth-child(12)
+        {
+            grid-area:6/3/7/4;
+            background: black;
+        }
+        .box1 div:nth-child(15)
+        {
+            grid-area:7/3/8/4;
+            background: black;
+        }
+        .box1 div:nth-child(11)
+        {
+            grid-area:6/2/7/3;
+            background: pink;
+        }
+        .box1 div:nth-child(14)
+        {
+            grid-area:7/2/8/3;
+            background: pink;
+        }
+        .box1 div:nth-child(8)
+        {
+            grid-area:5/1/6/2;
+            background:greenyellow;
+        }
+        .box1 div:nth-child(9)
+        {
+            grid-area:5/2/6/3;
+            background: pink;
+        }
+        .box1 div:nth-child(6)
+        {
+            grid-area:4/2/5/3;
+            background: pink;
+        }
+        .box1 div:nth-child(7)
+        {
+            grid-area:4/1/5/2;
+            background: greenyellow;
+        }
+        .box1 div:nth-child(5)
+        {
+            grid-area:3/1/4/2;
+            background:greenyellow;
+        }
+        .box1 div:nth-child(4)
+        {
+            grid-area:2/2/3/3;
+            background: pink;
+        }
+        .box1 div:nth-child(2)
+        {
+            grid-area:2/1/3/2;
+            background:greenyellow;
+        }
+        .box1 div:nth-child(3)
+        {
+            grid-area:3/2/4/3;
+            background: pink;
+        }
+        .box2 div
+        {
+            width:40px;
+           height:40px;
+           border:solid 1px black;
+           margin: 6px;
+           margin-top: 20px;
+           background: blue;
+        }
+        .box3 div{
+            width:40px;
+           height:40px;
+           border:solid 1px black;
+           margin: 6px;
+           margin-top: 20px;
+           
+         }
+         .box3 div:nth-child(5n)
+         {
+             background-color: red;
+         }
+         
+         .box3 > .br
+         {
+             background: brown;
+         }
+         #br1
+         {
+             background: brown;
+         }
+         .pr
+         {
+             background: purple;
+         }
+         .gr
+         {
+             background: green;
+         }
+         .or
+         {
+             background: orange;
+         }
+ </style>
+</head>
+<body>
+<div class="cont">
+    <div class="box1">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="box2">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="box3">
+        <div class="pr"></div>
+        <div class="gr"></div>
+        <div class="gr"></div>
+        <div class="gr"></div>
+        <div class="or"></div>
+        <div class="or"></div>
+        <div class="pr"></div>
+        <div class="gr"></div>
+        <div class="gr"></div>
+        <div class="or"></div>
+        <div class="or" ></div>
+        <div class="pr"></div>
+        <div class="pr"></div>
+        <div class="gr"></div>
+        <div class="or"></div>
+        <div class="or"></div>
+        <div class="or"></div>
+        <div class="pr"></div>
+        <div class="pr"></div>
+        <div class="or"></div>
+        <div class="or"></div>
+        <div class="or"></div>
+        <div class="or" ></div>
+        <div class="pr"></div>
+        <div class="or"></div>
+        <div class="br"></div>
+        <div class="br"></div>
+        <div class="br"></div>
+        <div class="br"></div>
+        <div class="br" id="br1"></div>
+    </div>
+</div>
+</body>
+</html>
